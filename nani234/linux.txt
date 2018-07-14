@@ -1,0 +1,40 @@
+vi editor:
+
+
+i	Insert at cursor (goes into insert mode)
+a	Write after cursor (goes into insert mode)
+A	Write at the end of line (goes into insert mode)
+ESC	Terminate insert mode
+u	Undo last change
+o	Open a new line (goes into insert mode)
+dd
+dd	Delete line
+Delete 3 lines. 3dd
+4dw	Delete word
+Delete 4 words 4dw
+
+	x       delete character under cursor
+
+	dd      delete line under cursor
+
+        
+
+
+x	Delete character at the cursor
+R	Overwrite characters from cursor onward
+
+
+:w	Save the file but keep it open
+:q	Quit without saving
+:wq	Save the file and quit
+
+
+
+
+MOVING
+
+	:3	move to 3rd linne
+
+	:$	move to last line of file
+
+/       finds a word going forwards
